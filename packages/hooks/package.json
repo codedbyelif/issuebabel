@@ -1,0 +1,24 @@
+{
+  "name": "@issuebabel/hooks",
+  "version": "0.1.0",
+  "description": "Husky git hook scripts for issuebabel (commit-msg, pre-push, pre-commit)",
+  "type": "module",
+  "bin": {
+    "issuebabel-commit-msg": "./dist/commit-msg.js",
+    "issuebabel-pre-push": "./dist/pre-push.js",
+    "issuebabel-pre-commit": "./dist/pre-commit.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@issuebabel/core": "workspace:*"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
