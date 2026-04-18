@@ -1,9 +1,9 @@
 # issuebabel
 
+**Created and maintained by [codedbyelif](https://github.com/codedbyelif)**
+
 > Platform-agnostic commit message & branch name validator with Husky integration.
 > GitHub, Jira, Linear, Azure DevOps ve daha fazlasını destekler.
-
-**Made by [codedbyelif](https://github.com/codedbyelif)**
 
 ---
 
