@@ -1,0 +1,24 @@
+{
+  "name": "@issuebabel/cli",
+  "version": "0.1.0",
+  "description": "CLI tool for issuebabel — init, validate-commit, validate-branch",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "issuebabel": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@issuebabel/core": "workspace:*",
+    "@issuebabel/hooks": "workspace:*"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
