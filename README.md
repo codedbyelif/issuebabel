@@ -400,7 +400,7 @@ npm test
 
 ## License / Lisans
 
-MIT
+[MIT](./LICENSE) © [codedbyelif](https://github.com/codedbyelif)
 
 ---
 
