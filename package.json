@@ -1,0 +1,19 @@
+{
+  "name": "issuebabel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Platform-agnostic commit & branch validator monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "dev": "npm run dev --workspaces"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
